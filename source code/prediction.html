@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block header %}
+<li><a class="nav-link" href="{{ url_for('signout') }}">Sign Out</a></li>
+{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-center">Prediction</h1>
+
+    <form method="POST" class="text-center">
+        <div class="form-group">
+            <label for="text">Enter text:</label>
+            <textarea id="text" name="text" rows="4" class="form-control mx-auto" style="width: 50%;" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Predict</button>
+    </form>
+
+    {% if predicted_label is not none %}
+        <h2 class="text-center mt-4">Prediction Result:</h2>
+        <div class="text-center">
+            <p><strong>Input Text:</strong> {{ text }}</p>
+            <p><strong>Predicted Label:</strong> {{ predicted_label }}</p>
+            <p><strong>Probability:</strong> {{ probability }}</p>
+        </div>
+    {% endif %}
+</div>
+{% endblock %}

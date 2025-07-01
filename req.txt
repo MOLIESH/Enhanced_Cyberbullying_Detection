@@ -1,0 +1,2 @@
+install anaconda 2021
+pip install email_validator transformers torch
