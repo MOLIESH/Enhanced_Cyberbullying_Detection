@@ -8,6 +8,10 @@ Drive Link : https://drive.google.com/drive/folders/1yeTuUYiEWHMFjSt6viBPj1wHCUW
 
 Download the Model Folder and Attached to the code.
 
+Dataset Link Has Been Given Below:
+
+Drive Link : https://drive.google.com/file/d/1AIV1FP8T1edcHNPy-xo1EV488Jtxx75y/view?usp=drive_link
+
 📂 Project Structure
 .
 ├── DistilBert_1L_model
