@@ -3,15 +3,18 @@ This project uses advanced NLP techniques with DistilBERT to identify hate speec
 
 📂 Project Structure
 .
-├── dataset/
-│   └── hate_texts.csv
-├── models/
-│   └── distilbert_hate_model/
-├── src/
-│   ├── preprocessing.py
-│   ├── train.py
-│   ├── predict.py
-│   └── evaluate.py
-├── requirements.txt
+├── DistilBert_1L_model
+├── static/
+│   ├── home_1.jpg
+│   ├── home_3.png
+│   ├── script.js
+│   └── style.css
+├── templates/
+│   ├── home.html
+│   ├── layout.html
+│   ├── prediction.html
+│   └── signin.html
+|   └── signup.html
+├── app.py
 ├── README.md
-└── app.py
+└── req.txt
